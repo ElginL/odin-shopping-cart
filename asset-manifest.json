@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/odin-shopping-cart/static/css/main.93b5cf8f.css",
+    "main.js": "/odin-shopping-cart/static/js/main.5a5fb384.js",
+    "static/media/Radeon.jpg": "/odin-shopping-cart/static/media/Radeon.3201b675441141a212b3.jpg",
+    "static/media/msiZ690Left.jpg": "/odin-shopping-cart/static/media/msiZ690Left.1b1ff1e1df19e956ee76.jpg",
+    "static/media/battleCruiser.jpg": "/odin-shopping-cart/static/media/battleCruiser.fd5b7b38711c3f754f8d.jpg",
+    "static/media/z690Left.jpg": "/odin-shopping-cart/static/media/z690Left.b4f7e4be755a69b38b61.jpg",
+    "static/media/b660mLeft.jpg": "/odin-shopping-cart/static/media/b660mLeft.99f27b79b5f59dfd7d93.jpg",
+    "static/media/msiZ690.jpg": "/odin-shopping-cart/static/media/msiZ690.4cb4c14ea52cd06d01c8.jpg",
+    "static/media/z690.jpg": "/odin-shopping-cart/static/media/z690.066f6028e729c7e59353.jpg",
+    "static/media/battleCruiserLeft.jpg": "/odin-shopping-cart/static/media/battleCruiserLeft.30fadb931f2c1db4e59a.jpg",
+    "static/media/snow.jpg": "/odin-shopping-cart/static/media/snow.577f7dd9f5018104d347.jpg",
+    "static/media/snowLeft.jpg": "/odin-shopping-cart/static/media/snowLeft.3f5b59322fec0e666ccf.jpg",
+    "static/media/intelCore11.jpg": "/odin-shopping-cart/static/media/intelCore11.4915d1fbb5930345ab47.jpg",
+    "static/media/CMS.jpg": "/odin-shopping-cart/static/media/CMS.2d61099bef307dd12da7.jpg",
+    "static/media/beQuiet.jpg": "/odin-shopping-cart/static/media/beQuiet.c69d0b1ff9cd0d20bad9.jpg",
+    "static/media/intelCore11Left.jpg": "/odin-shopping-cart/static/media/intelCore11Left.7a3ddddfafffeefb0f56.jpg",
+    "static/media/power.jpg": "/odin-shopping-cart/static/media/power.55e75b6683550eb1035d.jpg",
+    "static/media/CMSLeft.jpg": "/odin-shopping-cart/static/media/CMSLeft.d000d0d8963d17968f7e.jpg",
+    "static/media/beQuietLeft.jpg": "/odin-shopping-cart/static/media/beQuietLeft.ad341ead9c248661dc6f.jpg",
+    "static/media/vengeance.jpg": "/odin-shopping-cart/static/media/vengeance.56df483dd54dd00788aa.jpg",
+    "static/media/powerLeft.jpg": "/odin-shopping-cart/static/media/powerLeft.30257103abdae6dfc731.jpg",
+    "static/media/deepCoolLeft.jpg": "/odin-shopping-cart/static/media/deepCoolLeft.0ae35fa09aa672f45e99.jpg",
+    "static/media/intelCoreLeft.jpg": "/odin-shopping-cart/static/media/intelCoreLeft.54f4ad9af66400b8992e.jpg",
+    "static/media/deepCool.jpg": "/odin-shopping-cart/static/media/deepCool.bfe89a4fd108edab5425.jpg",
+    "static/media/intelCore.jpg": "/odin-shopping-cart/static/media/intelCore.fc3ce4268198879299e2.jpg",
+    "static/media/ram.jpg": "/odin-shopping-cart/static/media/ram.b5de8feb4e534681b8ad.jpg",
+    "static/media/vengeanceLeft.jpg": "/odin-shopping-cart/static/media/vengeanceLeft.03e3ee5b25f613cb0219.jpg",
+    "static/media/ramLeft.jpg": "/odin-shopping-cart/static/media/ramLeft.497e612f26eec6a42af2.jpg",
+    "index.html": "/odin-shopping-cart/index.html",
+    "static/media/shopping-cart.svg": "/odin-shopping-cart/static/media/shopping-cart.39666229bdedcd3ba9e0d1c6954e2ece.svg",
+    "main.93b5cf8f.css.map": "/odin-shopping-cart/static/css/main.93b5cf8f.css.map",
+    "main.5a5fb384.js.map": "/odin-shopping-cart/static/js/main.5a5fb384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93b5cf8f.css",
+    "static/js/main.5a5fb384.js"
+  ]
+}
