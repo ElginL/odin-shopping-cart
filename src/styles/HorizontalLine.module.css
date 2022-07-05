@@ -1,0 +1,6 @@
+.horizontal-line {
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 15px 0px;
+}

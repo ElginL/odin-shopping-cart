@@ -1,0 +1,51 @@
+.btns-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btns-container > button {
+    background-color: white;
+    font-size: 1.5rem;
+    width: 40px;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+.btns-container > h3 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.cart-img {
+    width: 150px;
+    height: 150px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.details-container > h2 {
+    text-align: center;
+}
+
+.details-container > p { 
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    gap: 10px;
+}
+
+.item-container > h2 {
+    text-align: center;
+}

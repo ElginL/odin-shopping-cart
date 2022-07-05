@@ -1,0 +1,56 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.checkout-btn {
+    width: 80%;
+    padding: 15px 0;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: background-color 0.2s;
+}
+
+.checkout-btn:hover {
+    cursor: pointer;
+    background-color: rgb(207, 139, 13);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.no-items {
+    font-size: 1.7rem;
+}
+
+.shopping-cart {
+    position: fixed;
+    z-index: 11;
+    width: 25vw;
+    height: 100%;
+    right: -25vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    transition: transform 1s;
+}
+
+.shopping-cart > h1 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+}
+
+.total-amt {
+    text-align: center;
+}

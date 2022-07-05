@@ -1,0 +1,40 @@
+.background-img {
+    width: calc(100vw - 17px);
+    height: calc(100vh - 18px);
+    position: absolute;
+}
+
+.description-container {
+    position: absolute;
+    top: 35%;
+    left: 75px;
+    color: white;
+}
+
+.description-heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.description-text {
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+.page-container {
+    font-family: 'Rubik', sans-serif;
+}
+
+.shop-now-btn {
+    padding: 10px 50px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.shop-now-btn:hover {
+    cursor: pointer;
+    background-color: rgb(149, 145, 145);
+}
