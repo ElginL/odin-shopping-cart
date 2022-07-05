@@ -1,6 +1,6 @@
 .background-img {
-    width: calc(100vw - 17px);
-    height: calc(100vh - 18px);
+    width: calc(100vw);
+    height: calc(100vh);
     position: absolute;
 }
 
@@ -37,4 +37,19 @@
 .shop-now-btn:hover {
     cursor: pointer;
     background-color: rgb(149, 145, 145);
+}
+
+@media (max-width: 1220px) {
+    .description-container {
+        top: 13%;
+        left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .background-img {
+        top: 115px;
+        height: calc(100vh - 115px)
+    }
 }

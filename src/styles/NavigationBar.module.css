@@ -23,6 +23,21 @@
     left: 0;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger > div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
 .nav-bar {
     position: fixed;
     z-index: 10;
@@ -60,4 +75,18 @@
 
 .link:hover {
     color: rgb(186, 182, 182);
+}
+
+@media (max-width: 750px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-brand {
+        display: none;
+    }
+
+    .link {
+        display: none;
+    }
 }

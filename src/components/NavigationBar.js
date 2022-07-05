@@ -3,10 +3,30 @@ import styles from '../styles/NavigationBar.module.css';
 import { Link } from 'react-router-dom';
 import CartModal from './CartModal';
 import ShoppingCart from '../assets/shopping-cart.svg';
+import NavModal from './NavModal';
 
 const NavigationBar = ({ cartProducts, setCartProducts }) => {
-    const modalRef = useRef(null);
-    const backgroundRef = useRef(null);
+    const cartModalRef = useRef(null);
+    const navModalRef = useRef(null);
+    const cartBGRef = useRef(null);
+    const navBGRef = useRef(null);
+
+    const openNavSide = () => {
+        navModalRef.current.style.transform = "translate(70vw)"
+        navBGRef.current.style.display = "block";
+        document.body.style.overflow = 'hidden';
+    }
+
+    const openCart = () => {
+        const translateMag = window.innerWidth > 1440
+        ? 25
+        : window.innerWidth > 900
+        ? 50
+        : 70
+        cartModalRef.current.style.transform = `translate(-${translateMag}vw)`;
+        cartBGRef.current.style.display = "block";
+        document.body.style.overflow = 'hidden';
+    }
 
     return (
         <div>
@@ -14,6 +34,13 @@ const NavigationBar = ({ cartProducts, setCartProducts }) => {
                 <h1 className={styles["nav-brand"]}>
                     Techware Shop
                 </h1>
+                <div 
+                    className={styles["hamburger"]}
+                    onClick={openNavSide}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
                 <ul className={styles["nav-links"]}>
                     <li>
                         <Link to="/" className={styles["link"]}>
@@ -28,11 +55,7 @@ const NavigationBar = ({ cartProducts, setCartProducts }) => {
                     <li>
                         <button 
                             className={styles["cart-container"]} 
-                            onClick={() => {
-                                modalRef.current.style.transform = "translate(-25vw)";
-                                backgroundRef.current.style.display = "block";
-                                document.body.style.overflow = 'hidden';
-                            }}>
+                            onClick={openCart}>
                             <img
                                 src={ShoppingCart}
                                 alt="Shopping Cart"
@@ -50,17 +73,25 @@ const NavigationBar = ({ cartProducts, setCartProducts }) => {
                 </ul>
             </nav>
             <CartModal
-                modalRef={modalRef}
-                backgroundRef={backgroundRef}
-                onClose={() => { 
-                    backgroundRef.current.style.display="none";
-                    modalRef.current.style.transform = "translate(0)";
-                    document.body.style.overflow = 'unset'
+                modalRef={cartModalRef}
+                backgroundRef={cartBGRef}
+                onClose={() => {
+                    cartBGRef.current.style.display="none";
+                    cartModalRef.current.style.transform = "translate(0)";
+                    document.body.style.overflow = 'unset';
                 }} 
                 cartProducts={cartProducts}
                 setCartProducts={setCartProducts}
-                />
-            : null
+            />
+            <NavModal
+                modalRef={navModalRef}
+                backgroundRef={navBGRef}
+                onClose={() => {
+                    navBGRef.current.style.display="none";
+                    navModalRef.current.style.transform = "translate(0)";
+                    document.body.style.overflow = 'unset';
+                }}
+            />
         </div>
     )
 };

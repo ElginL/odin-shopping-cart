@@ -17,7 +17,7 @@ const Home = ({ cartProducts, setCartProducts }) => {
             />
             <div className={styles["description-container"]}>
                 <h1 className={styles["description-heading"]}>
-                    Radeon RX 6800 XT Gaming X Trio
+                    Radeon RX 6800
                 </h1>
                 <p className={styles["description-text"]}>
                     Available for shipping now!

@@ -36,3 +36,9 @@
     width: 90%;
     height: 250px;
 }
+
+@media (max-width: 790px) {
+    .product-container {
+        width: 100%;
+    }
+}

@@ -78,3 +78,29 @@
         width: 40vw;
     }
 }
+
+@media (max-width: 790px) {
+    .main-container {
+        flex-direction: column-reverse;
+    }
+
+    .filter-btn > button {
+        color: #4f9ed0;
+    }
+
+    .filter-btns-container {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .filter-container {
+        width: 100%;
+    }
+
+    .items-container {
+        width: 80%;
+        align-self: center;
+    }
+}

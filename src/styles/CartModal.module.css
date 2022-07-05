@@ -49,8 +49,23 @@
 .shopping-cart > h1 {
     font-size: 3rem;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .total-amt {
     text-align: center;
+}
+
+@media (max-width: 1440px) {
+    .shopping-cart {
+        width: 50vw;
+        right: -50vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .shopping-cart {
+        width: 70vw;
+        right: -70vw;
+    }
 }
